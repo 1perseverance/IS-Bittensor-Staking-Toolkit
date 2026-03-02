@@ -1,6 +1,6 @@
 # Intelligence Sovereignty — Bittensor Yield Tools
 
-Reference code for on-chain Bittensor yield analysis. Published as a static library for anyone who wants to verify the numbers behind subnet staking decisions.
+Reference code for on-chain Bittensor yield analysis. Published as a static reference library for anyone who wants to verify the numbers behind subnet staking decisions.
 
 This is not a maintained project. No updates are guaranteed. Use it as a starting point, not a dependency.
 
