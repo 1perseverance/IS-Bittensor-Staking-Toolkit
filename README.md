@@ -18,7 +18,8 @@ Cross-subnet yield scanner. Scans all active subnets (or a custom list) and rank
 Single-subnet validator breakdown. Takes a subnet ID and your stake size, then outputs every active validator's emission APY, price APY, combined APY, take rate, Tv score, and pool concentration. Use this to make the final validator selection within a subnet.
 
 ### `root_validator_overview.py`
-Root network equivalent. No AMM layer, no Alpha exposure. Shows validator pool stakes, dividends, take rates, your personal yield estimate, and last activity timestamp. Use this as the baseline comparison before deciding whether subnet staking is worth the added complexity.
+Root network equivalent. No AMM layer, no Alpha exposure. Shows validator pool stakes, dividends, take rates, your personal yield estimate, and last activity timestamp.
+Root is not simply lower yield — it is structural capital. TAO functions as a layered portfolio: Root is the base allocation, subnet Alpha positions are higher-volatility overlays on top. Root stake stays denominated in TAO, compounds steadily, and can be redeployed without AMM slippage when opportunity emerges. Use this as a foundation to make subnets' structure possible.
 
 ---
 
