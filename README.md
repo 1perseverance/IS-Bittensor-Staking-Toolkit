@@ -65,21 +65,5 @@ This is not financial advice. All yield estimates are point-in-time calculations
 ## License
 
 Apache 2.0. See `LICENSE` for full terms.
-```
 
 ---
-
-**`.gitignore`**
-```
-__pycache__/
-*.pyc
-*.pyo
-.env
-.DS_Store
-```
-
----
-
-**`requirements.txt`**
-```
-bittensor
