@@ -60,6 +60,16 @@ Forks of this repository are not affiliated with or endorsed by the author. The 
 
 This is not financial advice. All yield estimates are point-in-time calculations based on on-chain data at the moment of execution. Past momentum does not imply future returns.
 
+```markdown
+
+---
+
+## Articles
+These tools were built alongside the following research:
+- [Root Staking on Bittensor: The Structural Yield Analysis](https://x.com/im_perseverance/status/2025974805132882194)
+- [Subnet Staking on Bittensor: The Structural Yield Analysis](https://x.com/im_perseverance/status/2028546102119780484)
+```
+
 ---
 
 ## License
