@@ -1,5 +1,5 @@
 """
-subnet_analysis.py
+IS_subnet_analysis.py
 ==================
 Subnet Staking Snapshot — Public Version
 @im_perseverance
