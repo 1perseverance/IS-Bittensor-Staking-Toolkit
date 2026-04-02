@@ -11,7 +11,7 @@ This is not a maintained project. No updates are guaranteed. Use it as a startin
 ### `IS_subnet_analysis.py`
 
 Network wide snapshot of all active subnets. Ranks by emission APY minus positive dilution (conservative real yield proxy).
-Use this first to get a read on which each subnets to stake in.
+Use this first to get a read on which subnets to stake in.
 
 Shows:
 - Emission APY (raw yield)
@@ -81,7 +81,7 @@ Run any script directly. Outputs CSV snapshots to respective directories:
 - `subnet_analysis/subnet_analysis_snapshot_YYYY-MM-DD.csv`
 - `validator_analysis/SN{netuid}/snapshot_YYYY-MM-DD.csv`
 - `root_analysis/snapshot_YYYY-MM-DD.csv`
-- `chutes_sn64_analysis_YYYY-MM-DD.csv`
+- `chutes_analysis/chutes_sn64_analysis_YYYY-MM-DD.csv`
 ```
 
 > **Note:** `chutes_sn64_analysis.py` fetches 168 hourly CSV archives sequentially — expect runtime of 20-50 minutes depending on connection speed.
