@@ -65,7 +65,7 @@ IS_subnet_analysis.py     →    IS_validator_analysis.py
 
 ## Falsifiability Work
 
-### `chutes_sn64_analysis.py`
+### `IS_chutes_sn64_analysis.py`
 
 SN64 Chutes intelligence market hypothesis test. Fetches 7-day invocation exports from api.chutes.ai in a single-pass sequential stream, merges with on-chain metagraph data, and tests whether validator weight allocations reflect real demand. Outputs Spearman and Pearson correlation analysis, divergence tables, demand-side user concentration, Root × SN64 validator overlap, and miner incentive concentration metrics. Includes an eight-signal E2EE perimeter forensics layer that evaluates demand authenticity at the metadata boundary without accessing encrypted content. Signal weights and longitudinal tracking are not included in this reference implementation.
 
@@ -81,7 +81,7 @@ Run any script directly. Outputs CSV snapshots to respective directories:
 - `subnet_analysis/subnet_analysis_snapshot_YYYY-MM-DD.csv`
 - `validator_analysis/SN{netuid}/snapshot_YYYY-MM-DD.csv`
 - `root_analysis/snapshot_YYYY-MM-DD.csv`
-- `snapshots/chutes/analysis/chutes_sn64_analysis_YYYY-MM-DD.csv`
+- `chutes_sn64_analysis_YYYY-MM-DD.csv`
 ```
 
 > **Note:** `chutes_sn64_analysis.py` fetches 168 hourly CSV archives sequentially — expect runtime of 20-50 minutes depending on connection speed.
